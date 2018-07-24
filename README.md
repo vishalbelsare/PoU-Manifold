@@ -11,8 +11,8 @@
 A [partition of unity](https://en.wikipedia.org/wiki/Partition_of_unity) is a useful, though technical, tool that helps us work in local coordinates. This can be a tricky matter when we’re doing things all over our manifold, since it’s almost never the case that the entire manifold fits into a single coordinate patch. A (smooth) partition of unity is a way of breaking the function with the constant value 1 up into a bunch of (smooth) pieces that are easier to work with.
 
 More precisely, for any covering of X (a topological space; here it is a manifold, which is a topological space with additional properties) by open subsets {Uₘ},there exists a sequence of smooth nonnegative functions {ϴₙ}, on X, called a partition of unity, subordinate to the [open cover](https://en.wikipedia.org/wiki/Cover_(topology)#Cover_in_topology) {Uₘ} such that for every point, x ∈ X :
-
-- the sum of all function values at x is 1, i.e., ∑ ϴₙ(x) = 1
+<sub></sub>
+- the sum of all function values at x is 1, i.e., ∑ ϴₙ(x) = 1. Each θ<sub>i</sub> = ( φ<sub>i</sub> / ∑<sub>j</sub>j φ<sub>j</sub> ) where we have taken φ<sub>j</sub> to be a bump function. (to be precise 3 bump functions for 3 charts). By this normalization, the summation ∑n ϴₙ(x) comes out to be 1.
 
 - 0 ≤ ϴₙ(x) ≤ 1 and all 'n'
 
