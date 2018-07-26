@@ -58,4 +58,4 @@ We have taken patches/ overlapping charts such that atmost 4 patches overlap any
 2. [Six charts of the S^2 manifold](images/charts.png)
 
 ## Evaluation:
-We have reported the *Average test loss*, *Average training loss*, *MSE* and *Standard Deviation*. *Average test loss* comes out to be ~0.20. We have used holdout method for evaluating the results.
+We have reported the *Average test loss*, *Average training loss*, *MSE* and *Standard Deviation*. *Average test loss* comes out to be ~0.20. We have used k-fold cross validation method for evaluating the results where we set k = 10. The average error is computed across all 'k' trials.
